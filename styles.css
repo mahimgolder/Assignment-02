@@ -1,9 +1,97 @@
-div{
-    height: 300px;
-    background-color: blue;
-    width: 100%;
-    margin-left: 100px;
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz@0,14..32;1,14..32&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-img{
-    margin-top: 400px;
+body{
+    background: #000;
+    color: #ffffff;
 }
+hwader{
+    background-image: linear-gradient(rgb(17, 17, 17)
+    rgba(119, 119, 119, 0));
+}
+
+nav{
+    border: 2px solid white;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 57px;
+    padding-bottom:;
+}   
+nav .logo{
+    color: #e6533c ;
+    font-family: inter;
+    font-size: 39px;
+    font-weight: 800;
+    padding: 4px;
+    font-style: italic;
+
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 47px;
+    border: 1px solid gray;
+    border-radius: 39px;
+    padding: 4px 2px;
+    padding-bottom: ;
+    font-size: 18px;
+    font-family: inter;
+    height: 45px;
+    
+    
+}
+nav ul li{
+    padding: 0 20px;
+    font-weight: 400;
+    font-size: 18px;
+
+}
+nav .active{
+    background: #e6533c;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 8px 20px;
+    border-radius:39px;
+}
+.banner{
+    border: 2px solid wheat;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+
+.banner-content{
+    display: grid;
+    gap: 28px;
+}
+
+
+
+.container{
+    max-width: 1060px;
+    margin: 0 auto;
+}
+.btn{
+    
+    font-weight: 600px;
+    font-family: inter;
+    color: #ffffff;
+}
+.btn-primary{
+    background: #e6533c;
+    padding: 16px 40px;
+    border-radius: 42px;
+
+    border: none;
+}
+.btn-secondary{
+    background: ;
+
+}
+
+
